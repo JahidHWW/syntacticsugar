@@ -1,0 +1,152 @@
+body {
+    background-image: url("content/pexels-lukas-616484.jpg");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-size: 1440px 900px;
+  
+  }
+  .container {
+  background-color: rgb(240, 240, 240);
+  width: 405px;
+  height: 600px;
+  margin: auto;
+  box-shadow: 15px 15px 10px rgb(0, 0, 0, 0.20);
+  }
+  .container:hover .service,
+  .container:hover .searchP,
+  .container:hover .searchM {
+  background-color: rgb(221, 221, 221);
+  }
+  .head,
+  .address,
+  .line,
+  .tip-reciept,
+  .QrMessege {
+      text-align: center;
+  }
+  .head {
+      font-size: 25px;
+      padding-top: 20px;
+      margin-bottom: 3px;
+  }
+  .address {
+      font-size: 12px;
+      margin-top: 0;
+  }
+  .line {
+      margin-top: 5px;
+      margin-bottom: 0;
+      font-family: 'Times New Roman';
+  }
+  .tip-reciept {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 18px;
+  }
+  .searchP {
+      height: 25px;
+      width: 156px;
+      margin-top: 9px;
+      border: none;
+      text-align: center;
+      background-color: rgb(240, 240, 240);
+      color: gray;
+      transition: background-color 0.30s;
+  }
+  .searchM {
+      height: 25px;
+      width: 156px;
+      margin-top: 2px;
+      border: none;
+      text-align: center;
+      background-color: rgb(240, 240, 240);
+      color:gray;
+      transition: background-color 0.30s;
+  }
+  .service {
+      height: 28px;
+      width: 160px;
+      margin-top: 2px;
+      border: none;
+      color: gray;
+      text-align: center;
+      background-color: rgb(240, 240, 240);
+      transition: background-color 0.30s;
+  }
+  input:focus {
+      outline: none !important;
+  }
+  select:focus {
+      outline: none !important;
+  }
+  .middle-container {
+      display: inline-grid;
+      grid-template-columns: 230px 100px;
+      justify-content: space-between;
+  }
+  .left {
+      margin-left: 10px;
+      margin-top: 3px;
+      font-size: 14px;
+  }
+  .right {
+      margin-top: 3px;
+      color: gray;
+  }
+  .tip,
+  .split,
+  .full-total {
+  margin-bottom: 0;
+  margin-top: 5px;
+  }
+  .tip-line-one,
+  .tip-line-two,
+  .tip-line-three,
+  .tip-line-four,
+  .description {
+      display: inline-grid;
+      grid-template-columns: 290px 100px;
+      margin-left: 10px;
+  }
+  .Tip {
+      font-size: 24px;
+      font-weight: bold;
+  }
+  .tip-split,
+  .Total,
+  .Total-split {
+      font-size: 14px;
+  }
+  div {
+      font-family: Arial;
+  }
+  .img {
+      height: 80px;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+  .button-container {
+      text-align: center;
+      
+  }
+  .enter-button {
+      height: 25px;
+      width: 50px;
+      margin-bottom: 5px;
+      border: none;
+      background-color: rgb(199, 199, 199);
+      border-radius: 25px;
+      transition: opacity 0.15s;
+  }
+  .enter-button:hover {
+      opacity: 0.8;
+  }
+  .enter-button:active {
+      opacity: 0.5;
+  }
+  .QrMessege {
+      margin-top: 5px;
+      margin-bottom: 5px;
+  }
