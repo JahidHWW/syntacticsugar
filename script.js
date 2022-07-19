@@ -2,6 +2,7 @@ let SplitTip = 0;
 let tip = 0;
 let finalTotal = 0;
 let finalTotalSplit = 0;
+let checkOnClick = false;
 
 function show() {
     const peopleCount = document.getElementById('#people').value;
@@ -12,6 +13,8 @@ function show() {
         window.alert("Please enter all values...");
         return;
     }
+
+    checkOnClick = true;
 
     var sfx = document.getElementById("sfx");
     sfx.autoplay = 'true';
@@ -44,5 +47,18 @@ function show() {
     splitTotal.appendChild(div);
     tipTotal.appendChild(divTip);
     finalTotal.appendChild(divTotal);
-    totalSplit.appendChild(divTotalSplit);
+    totalSplit.appendChild(divTotalSplit)
+}
+
+function capture() {
+
+    if (checkOnClick == false) {
+        return;
+    }
+    html2canvas(document.getElementById("container")).then((canvas) => {
+        let a = document.createElement("a");
+        a.download = "receiptPicture.png";
+        a.href = canvas.toDataURL("image/png");
+        a.click(); // MAY NOT ALWAYS WORK!
+    });
 }
