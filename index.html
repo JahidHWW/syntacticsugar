@@ -8,9 +8,9 @@
     
     <link rel="stylesheet" href="styles.css">
 </head>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <body>
-    <div class="container">
+    <div id="container" class="container">
 
         <div class="top-container">
             <h1 class="head">Tip Calculator</h1>
@@ -83,11 +83,12 @@
         </div>
 
         <p class="line" style="margin-bottom: 20px;">* * * * * * * * * * * * * * * * * * * * * * * * * * * * * *</p>
-     <div class="screenshot-button-container">
-            <button class="screenshot-button" onclick="capture()">
-                <img class="img" src="content/screenshot-icon.png" alt="">
-            </button>
+    <div class="screenshot-button-container">
+        <button class="screenshot-button" onclick="capture()">
+            <img class="img" src="content/screenshot-icon.png" alt="">
+        </button>
     </div>
+
 <p class="QrMessege">Click to download your reciept!</p>
 <p class="tip-reciept">Thank You!</p>
     </div>

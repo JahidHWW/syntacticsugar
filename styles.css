@@ -121,15 +121,18 @@ body {
       font-family: Arial;
   }
   .img {
-    height: 30px;
-    margin-bottom: 0;
-    margin-top: 4px;
+      height: 30px;
+      margin-bottom: 0;
+      margin-top: 4px;
   }
   .button-container,
   .screenshot-button-container {
       text-align: center;
+      
   }
-
+  s.screenshot-button-container {
+      margin-top: 30px;
+  }
   .enter-button {
       height: 25px;
       width: 50px;
@@ -140,14 +143,14 @@ body {
       transition: opacity 0.15s;
   }
   .screenshot-button {
-    height: 50px;
-    width: 50px;
-    background-color: rgb(199, 199, 199);
-    padding: 0;
-    border: none;
-    border-radius: 15px;
-    transition: opacity 0.15s;
-}
+      height: 50px;
+      width: 50px;
+      background-color: rgb(199, 199, 199);
+      padding: 0;
+      border: none;
+      border-radius: 15px;
+      transition: opacity 0.15s;
+  }
   .enter-button:hover,
   .screenshot-button:hover {
       opacity: 0.8;
@@ -157,6 +160,6 @@ body {
       opacity: 0.5;
   }
   .QrMessege {
-      margin-top: 5px;
+      margin-top: 20px;
       margin-bottom: 5px;
   }

@@ -47,7 +47,7 @@ function show() {
     splitTotal.appendChild(div);
     tipTotal.appendChild(divTip);
     finalTotal.appendChild(divTotal);
-    totalSplit.appendChild(divTotalSplit)
+    totalSplit.appendChild(divTotalSplit);
 }
 
 function capture() {
