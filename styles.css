@@ -1,8 +1,8 @@
 body {
     background-image: url("content/pexels-lukas-616484.jpg");
     background-repeat: no-repeat;
-    background-size:contain;
-    background-size: 1440px 900px;
+    background-position: center;
+    background-size: 1440px 955px;
   
   }
   .container {
